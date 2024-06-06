@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "nestedArr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractI/ContractIV6.sol": "ContractIV6"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractI/ContractIV6.sol": {
+			"keccak256": "0x435ecd082742f41ee02979f6135ebeacf2a014b4ce23e9792fec2a59f618f8f8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://66f5f43d82c84d04e59cb34f3434817fb5d6f18f2d1f970ad1ac10b9d4144a5f",
+				"dweb:/ipfs/QmaB82A6EGk1UPQvbVfUe1N17UrHWUt1SKNWbXcopEFzQz"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "nestedMap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractI/ContractIV3.sol": "ContractIV3"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractI/ContractIV3.sol": {
+			"keccak256": "0x44dae264f405fd0b2c7b406a7c6f4bb0eba313e3f4528f15a9e63c62dd0e214e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fe20fe962811010f53d34b463396fe96a19b69989ba39759c12801ec929f089b",
+				"dweb:/ipfs/QmZMa7gWg4AWRsUQLwA2QMmBMifJ4cUGwWLXhLiV8g9WYk"
+			]
+		}
+	},
+	"version": 1
+}

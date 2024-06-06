@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractJ/ContractJV4.sol": "ContractJV4"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractJ/ContractJV4.sol": {
+			"keccak256": "0x77287b9c9364257b9a025d955cd75d5297cad7d4bc3fd498402944335d7a4207",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://719eaadd54cbeda35b1853c1332a9df5ceb7c8f073a4f15b342f18f028d7dffd",
+				"dweb:/ipfs/QmP75puk85RHhXojWHWZFemc6b4Zymf7zwrWFCxRa3Ee6r"
+			]
+		}
+	},
+	"version": 1
+}

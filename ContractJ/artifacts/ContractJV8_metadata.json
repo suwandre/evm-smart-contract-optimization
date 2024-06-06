@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "incrementCount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractJ/ContractJV8.sol": "ContractJV8"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractJ/ContractJV8.sol": {
+			"keccak256": "0x146d32d7242f2e7451b6b7e3ac1d5db485fcfa83f214ae9a2925f09e29a06d83",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b2491dd4dc3ef1d24741077aa82c7a8c25dd40b006d6ab9d1ec5097daa668a39",
+				"dweb:/ipfs/QmTS6WPjfAcD4xZHKDjHwrsczAtQroWJC8cghWb9WvKV9j"
+			]
+		}
+	},
+	"version": 1
+}

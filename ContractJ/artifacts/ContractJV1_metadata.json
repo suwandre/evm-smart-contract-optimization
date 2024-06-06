@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					}
+				],
+				"name": "addTimestamp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractJ/ContractJV2.sol": "ContractJV1"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractJ/ContractJV2.sol": {
+			"keccak256": "0xd108cb9843777acb10ab485fffa4c25e622d3bc452def6f0e5af6a6360e8527d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://17b466cf9cf814c4e36faefefa4fb0cd35445e2d1baf7523ae90a201a46c1e28",
+				"dweb:/ipfs/QmTXB9wNLxk7E87TR7ecHRTXnzfA9mSgzGktTjSWDzvpkj"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractI/ContractIV4.sol": "ContractIV4"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractI/ContractIV4.sol": {
+			"keccak256": "0x0aa0e96488027eaf69dc091204d07141b340c5b0b25fcb2b3f7b36955e5e5698",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://577f5349ca64a76edf756bdfe290de92fc1f36575d6383e32edd97dc7b8402e6",
+				"dweb:/ipfs/QmQzvRF2ffZFwsiwazwPpJEmHAE28TidJNPsvG9YhSpTQh"
+			]
+		}
+	},
+	"version": 1
+}
