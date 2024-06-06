@@ -1,0 +1,81 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_14": {
+					"entryPoint": null,
+					"id": 14,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60a0604052348015600e575f80fd5b5033608052608051603e60255f395f5050603e5ff3fe60806040525f80fdfea264697066735822122045e7652a392857661455c1cbcf11b8560eae0c54277b236ef59b9e0b2457b60864736f6c63430008190033",
+			"opcodes": "PUSH1 0xA0 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 DUP1 REVERT JUMPDEST POP CALLER PUSH1 0x80 MSTORE PUSH1 0x80 MLOAD PUSH1 0x3E PUSH1 0x25 PUSH0 CODECOPY PUSH0 POP POP PUSH1 0x3E PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 GASLIMIT 0xE7 PUSH6 0x2A3928576614 SSTORE 0xC1 0xCB 0xCF GT 0xB8 JUMP 0xE 0xAE 0xC SLOAD 0x27 PUSH28 0x236EF59B9E0B2457B60864736F6C6343000819003300000000000000 ",
+			"sourceMap": "63:341:0:-:0;;;162:51;;;;;;;;;-1:-1:-1;195:10:0;187:18;;63:341;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f80fdfea264697066735822122045e7652a392857661455c1cbcf11b8560eae0c54277b236ef59b9e0b2457b60864736f6c63430008190033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 GASLIMIT 0xE7 PUSH6 0x2A3928576614 SSTORE 0xC1 0xCB 0xCF GT 0xB8 JUMP 0xE 0xAE 0xC SLOAD 0x27 PUSH28 0x236EF59B9E0B2457B60864736F6C6343000819003300000000000000 ",
+			"sourceMap": "63:341:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "infinite",
+				"totalCost": "infinite"
+			},
+			"internal": {
+				"_checkAdmin()": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		},
+		{
+			"inputs": [],
+			"name": "NotAdmin",
+			"type": "error"
+		}
+	]
+}

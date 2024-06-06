@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractT/ContractTV2.sol": "ContractTV2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractT/ContractTV2.sol": {
+			"keccak256": "0x54d4d55f4dd56faf06e218683e7404e4db76f80686f97d3192cfee2f2f62c4f7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://007021c964a3caab41404fd240a0e40d53f691a8adfe1ba1aef3957caf7df6cb",
+				"dweb:/ipfs/QmTXnENDofTu913NfT2iYdMXEGw5yc3vGXKWXDqsqS7qwj"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "NotAdmin",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "proxy",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "newImpl",
+						"type": "address"
+					}
+				],
+				"name": "upgrade",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractT/ProxyAdmin.sol": "ProxyAdmin"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractT/ProxyAdmin.sol": {
+			"keccak256": "0xee7d6d38b02b646d381a99a57baae1be525b4ebcf3e78a45dd8b70c4420e9ae3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://852f42c6a1a5d44274cf4fc10613c3539d5e857402726a39f09f9f5479d95249",
+				"dweb:/ipfs/QmQEDboYxEaEx721xCdH2zRY4WN7AqM7hWGfoQNqsHJGgg"
+			]
+		},
+		"contracts/ContractT/TransparentProxy.sol": {
+			"keccak256": "0xaf4ab8561ea4f08da7867f95f61854989b6310f3a06f4f7f24300b6d14a0631a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9083a076d7e6bd5eaedbde7dcc987e3a20a5543fbc511c2388c08245af49ea4d",
+				"dweb:/ipfs/QmcWmTwkRQpc93dJRBnERri6F1BHAAzea1ET7u5rkASkYj"
+			]
+		}
+	},
+	"version": 1
+}

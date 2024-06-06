@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_proxy",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "InitFailed",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "facetAddress",
+								"type": "address"
+							},
+							{
+								"internalType": "enum IDiamondCut.FacetCutAction",
+								"name": "action",
+								"type": "uint8"
+							},
+							{
+								"internalType": "bytes4[]",
+								"name": "functionSelectors",
+								"type": "bytes4[]"
+							}
+						],
+						"internalType": "struct IDiamondCut.FacetCut[]",
+						"name": "_facetCuts",
+						"type": "tuple[]"
+					},
+					{
+						"internalType": "address",
+						"name": "_init",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "diamondCut",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractT/DiamondCutFacet.sol": "DiamondCutFacet"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractT/DiamondCutFacet.sol": {
+			"keccak256": "0xb0a1a01eeb381e997a60467360011ad4270fcd95718c7e2513d290ce7e03990d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://531c598bb8093358878f3e4a514529c7f6d240f5fc8cc0b2887192bfa58ee408",
+				"dweb:/ipfs/Qmcv6WBPFXb7dH38bxc8WnC1tZ5Mru4YUgLneVc6bTo5E8"
+			]
+		},
+		"contracts/ContractT/DiamondProxy.sol": {
+			"keccak256": "0x3df6321dbd041a0edbe2ada4130132d03e2646b2fee2b44b35e339ee9e93ce46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2b8fbbfcbde9311204d6e6815d23a47637e58676600f21c00b53fa0b612ecb01",
+				"dweb:/ipfs/QmVMr3FZEF1z5xguqQmYoCEUdRRUUNqN3vuhiG7rFpTJza"
+			]
+		},
+		"contracts/ContractT/IDiamondCut.sol": {
+			"keccak256": "0xb51074326d9f2024214daef696b99017f581527d51ef9b278091c13b6d4471f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b11c350d45518617c4424a1979e9a2567516226f79e74e08ae652bec99c5a27c",
+				"dweb:/ipfs/QmfC4nLQhLy6VdevSJFvKqQB2pvTFhhkr6Yv6T19TAn6wJ"
+			]
+		}
+	},
+	"version": 1
+}

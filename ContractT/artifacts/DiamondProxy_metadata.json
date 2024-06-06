@@ -1,0 +1,145 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "InvalidFunction",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "Unauthorized",
+				"type": "error"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"name": "facets",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDiamondCutFacet",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "_diamondCutFacet",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_diamondCutFacet",
+						"type": "address"
+					}
+				],
+				"name": "setDiamondCutFacet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "_selector",
+						"type": "bytes4"
+					},
+					{
+						"internalType": "address",
+						"name": "_newFacetAddress",
+						"type": "address"
+					}
+				],
+				"name": "updateFacet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractT/DiamondProxy.sol": "DiamondProxy"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractT/DiamondProxy.sol": {
+			"keccak256": "0x3df6321dbd041a0edbe2ada4130132d03e2646b2fee2b44b35e339ee9e93ce46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2b8fbbfcbde9311204d6e6815d23a47637e58676600f21c00b53fa0b612ecb01",
+				"dweb:/ipfs/QmVMr3FZEF1z5xguqQmYoCEUdRRUUNqN3vuhiG7rFpTJza"
+			]
+		}
+	},
+	"version": 1
+}

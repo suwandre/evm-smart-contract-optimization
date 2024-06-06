@@ -1,0 +1,56 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "NotAdmin",
+				"type": "error"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractT/AdminControlFacet.sol": "AdminControlFacet"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractT/AdminControlFacet.sol": {
+			"keccak256": "0xf45d878f550c597b730b21afaabcf9c7d4f064cfbcaa20de7e2ec1037698a405",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c30f93ab97ee48bc9e566f34836f920cb842680ab16933ec66be0c1330118025",
+				"dweb:/ipfs/QmbqRRJU9FDFj6CZ4wLwrxM5nhYbx73hFmqdEotrYdkscK"
+			]
+		}
+	},
+	"version": 1
+}

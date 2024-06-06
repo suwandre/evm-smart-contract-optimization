@@ -301,3 +301,27 @@ ContractSV1's contract: https://testnet.bscscan.com/address/0xee29b9F98c1Ff8f43A
 ContractSV2's contract: https://testnet.bscscan.com/address/0xdcddec46cda8719139ad22551b41f0a998442a65
 
 ContractSV3's contract: https://testnet.bscscan.com/address/0x1536b3d1df267baaa8b13cb0670473608ec3379e
+
+ContractTV1's contract: https://testnet.bscscan.com/address/0xa0ad2df06c6f04176c8e1b15c56dd5228290c171
+
+ContractTV2's contract: https://testnet.bscscan.com/address/0x1835290280dd46fd8d0c77decb1f93293918a03c
+
+TransparentProxy's contract: https://testnet.bscscan.com/address/0x2e79866D6B1752BB71036d09b94df25580A0d0B2
+
+ContractTV3's contract: https://testnet.bscscan.com/address/0x320696c602ef9fff707a6b5e569b249f0b26ed50
+
+ContractTV4's contract: https://testnet.bscscan.com/address/0x1f928c36a278ea87384af45792a05eef9a673392
+
+UUPSProxy's contract: https://testnet.bscscan.com/address/0x5d89a8bfe21cb10c3e4a2af45f6f3c4df17e658e
+
+ContractTV5's contract: https://testnet.bscscan.com/address/0xD282045AC1679A250cD6998D31118bCca8D7Cf2F
+
+ContractTV6's contract: https://testnet.bscscan.com/address/0x9247C74ea7CD2a66dA9f9DEd9E854fdC0B406909
+
+DiamondCutFacet's contract: https://testnet.bscscan.com/address/0x01419184eE2909Da8c895Ff571E6381b9d866AA6
+
+DiamondProxy's contract: https://testnet.bscscan.com/address/0xa873374FcEF193FD35D1f801505e33fD0c3A193c
+
+ContractVV1's contract: https://testnet.bscscan.com/address/0xcf7EBd02FB361CD97fEaf77170E40dCC1437Af7e
+
+ContractVV2's contract: https://testnet.bscscan.com/address/0xe758f0529fCb81b0fc371f7B05FB9EF27db03133
