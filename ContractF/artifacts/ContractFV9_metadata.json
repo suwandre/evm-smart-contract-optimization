@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractF/ContractFV9.sol": "ContractFV9"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractF/ContractFV9.sol": {
+			"keccak256": "0xfaade4042011f64b946293cb94a754f242681a8f5075bde347c4c2823bb82d28",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2be2f47053f720f1287f1763a64291d5ead43d27577ffa20d7596779987d3a2a",
+				"dweb:/ipfs/QmW5a2BRxQv5spaMvEbCDLeJtopqLUaVPCVcNVJkLdfNb7"
+			]
+		}
+	},
+	"version": 1
+}

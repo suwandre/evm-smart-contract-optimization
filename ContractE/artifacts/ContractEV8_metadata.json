@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getNum1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNum2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractE/ContractEV8.sol": "ContractEV8"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractE/ContractEV8.sol": {
+			"keccak256": "0xd1f2ddc95d87614823a57d1dde28e5ddc62c32c482ed4a2f2d3fa0b7030fc13a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7e30d68657f0abac07dc18484e48d8ad3c8900cbc78f387512c56319ff8f2f46",
+				"dweb:/ipfs/QmbHrdxaGyBjWqXAuHviA2wuEmb5rn72jiKfR1zaoWWP8G"
+			]
+		}
+	},
+	"version": 1
+}

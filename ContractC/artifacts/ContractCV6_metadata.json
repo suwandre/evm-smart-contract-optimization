@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getValues",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "a",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "b",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint16",
+						"name": "c",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint16",
+						"name": "d",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint32",
+						"name": "e",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint64",
+						"name": "f",
+						"type": "uint64"
+					},
+					{
+						"internalType": "uint112",
+						"name": "g",
+						"type": "uint112"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "a",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "b",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint16",
+						"name": "c",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint16",
+						"name": "d",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint32",
+						"name": "e",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint64",
+						"name": "f",
+						"type": "uint64"
+					},
+					{
+						"internalType": "uint112",
+						"name": "g",
+						"type": "uint112"
+					}
+				],
+				"name": "setValues",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractC/ContractCV6.sol": "ContractCV6"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractC/ContractCV6.sol": {
+			"keccak256": "0x3b382a318cbbfcf833818cdab2ec312f21683fae243b217782bae64222eff9ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://239e791da2725dd32deb6571280bb23b65db53c4b1e4a5e36f0c8c9a0b626d62",
+				"dweb:/ipfs/QmdmQaXijv66speUbNWcx8gFRZZYLE7wAgLryWXb7gocnu"
+			]
+		}
+	},
+	"version": 1
+}
