@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "hash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "signature",
+						"type": "bytes"
+					}
+				],
+				"name": "recoverSigner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractR/ContractRV1.sol": "ContractRV1"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractR/ContractRV1.sol": {
+			"keccak256": "0xa99bd527df65041568df0f9f0311cffd1619d6c3b3c6bec4c6f54d47c9dfa413",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bc33e8290c4f7d6b2ba21c6eb85209ddf272be42b5904d3b25d91b7c344a02d8",
+				"dweb:/ipfs/QmUsWAagkjkWaNQMRmXTDy5nHAQ4YyKcRqV3seGRZVsBpM"
+			]
+		}
+	},
+	"version": 1
+}

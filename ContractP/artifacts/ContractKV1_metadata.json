@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "nums",
+						"type": "uint256[]"
+					}
+				],
+				"name": "sumNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractP/ContractPV3.sol": "ContractKV1"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractP/ContractPV3.sol": {
+			"keccak256": "0xa8f1f6596561f5c3851f04bd72daa615e9914647e33347b608b104ba9419dd76",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6062dc8959b4d26a142c7a3154fefb9a81219ee80847acd1b689e45980dbe98f",
+				"dweb:/ipfs/QmVmG6wqMuP9qf6avvPKAbE276sZuktejdeshqfBD6Phgy"
+			]
+		}
+	},
+	"version": 1
+}
