@@ -335,3 +335,21 @@ ContractWV3's contract: https://testnet.bscscan.com/address/0x5b07c7eb260602e84f
 ContractXV1's contract: https://testnet.bscscan.com/address/0x0dc1150bfe07B44BBE0ef183A948AaE015182Aa8
 
 ContractXV2's contract: https://testnet.bscscan.com/address/0x7af17Ac3578f31068bB55d6e3dcDA19BB2BCF4Dc
+
+ContractACV1's contract: https://testnet.bscscan.com/address/0xAFf1dd2B7EE883Cf0B8aE224Dcc0C79d944BA71d
+
+ContractACV2's contract: https://testnet.bscscan.com/address/0xfA381f94a7CBcBf014b0aed4a1f4AB4d658236a7
+
+ContractACV3's contract: https://testnet.bscscan.com/address/0x672cB96018E4038FEa02891839e2A33865d9CBba
+
+ContractACV4's contract: https://testnet.bscscan.com/address/0x36Cf46B5754AAEAd9e256D3A304169ba88263DA3
+
+ContractACV5's contract: https://testnet.bscscan.com/address/0x6E78422F7De4184b93349db733918d70d8Af4d8F
+
+ContractACV6's contract: https://testnet.bscscan.com/address/0x9ff331F93259Fb11b76468cD6382158Bfb0200cE
+
+ContractACV7's contract: https://testnet.bscscan.com/address/0xd80573f908035c460b688fe3de778c6a51e66286
+
+ContractACV8's contract: https://testnet.bscscan.com/address/0x053d482E528B1eD755ee74e0bFf71f560478B6b0
+
+ContractACV9's contract: https://testnet.bscscan.com/address/0xdDa65883E2019411b03B536ed441522dc0499eCd

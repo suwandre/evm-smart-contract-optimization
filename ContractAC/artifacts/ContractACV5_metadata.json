@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractAC/ContractACV5.sol": "ContractACV5"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractAC/ContractACV3.sol": {
+			"keccak256": "0x2a9044ad3cbf8008b37a0f2b1be11372d590c32df9b2a2aad2c3d0d4da3ee0f7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://69f03d9e86949f8421b67a1b735fa7be50111271d76de68cf7d255068178cb2b",
+				"dweb:/ipfs/QmRiJoLitLMYDDun4v5BF3WwrhZ6ktJB5Mpn7aWx51dEfY"
+			]
+		},
+		"contracts/ContractAC/ContractACV5.sol": {
+			"keccak256": "0x917bac9f5e1fbc18c7ad9ae6abb53e77f08b71242c77164bb12af316c840bfb7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://629004a64265046ae526129dd11e3f01700329a17b7f1908fec0bfc189e772e6",
+				"dweb:/ipfs/QmchQnGFcY99sqXpeH1v3okvJ7CttNgzDMk5VZ954uoV6N"
+			]
+		}
+	},
+	"version": 1
+}

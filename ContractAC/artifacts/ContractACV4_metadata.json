@@ -1,0 +1,180 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getValues",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "a",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "b",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint16",
+						"name": "c",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint16",
+						"name": "d",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint32",
+						"name": "e",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint64",
+						"name": "f",
+						"type": "uint64"
+					},
+					{
+						"internalType": "uint112",
+						"name": "g",
+						"type": "uint112"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "a",
+						"type": "uint8"
+					}
+				],
+				"name": "setA",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "b",
+						"type": "uint8"
+					}
+				],
+				"name": "setB",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "c",
+						"type": "uint16"
+					}
+				],
+				"name": "setC",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "d",
+						"type": "uint16"
+					}
+				],
+				"name": "setD",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "e",
+						"type": "uint32"
+					}
+				],
+				"name": "setE",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint64",
+						"name": "f",
+						"type": "uint64"
+					}
+				],
+				"name": "setF",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint112",
+						"name": "g",
+						"type": "uint112"
+					}
+				],
+				"name": "setG",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractAC/ContractACV4.sol": "ContractACV4"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractAC/ContractACV4.sol": {
+			"keccak256": "0xad9f3f5043cf8917f31c0343f7eeec73638f69066f8c616a5b019cae90d0a880",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d77b1a66335ce71d2d42231b437308a4ed906461dc45d4c8dcede08d6daab251",
+				"dweb:/ipfs/QmeuwPXXtz5KXgQePVKmqLa9tsaz5jX8mupfSt5qQpPrtC"
+			]
+		}
+	},
+	"version": 1
+}
