@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "readNumber",
+				"outputs": [
+					{
+						"internalType": "uint88",
+						"name": "",
+						"type": "uint88"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractB/ContractBV2.sol": "ContractBV2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractB/ContractBV2.sol": {
+			"keccak256": "0x3d3aeb5657e8a92af91ac687889f457ea2009aac1b880cee08e855ecffdef5fb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6246d8d514a808534187ea13cfd649be95e71e7ffe7988f94ad7f1ba4bac1d29",
+				"dweb:/ipfs/QmXwvf2TXve4uDLBcBGJMH9aomWdQvFvZQcvC6oht3Cni5"
+			]
+		}
+	},
+	"version": 1
+}
