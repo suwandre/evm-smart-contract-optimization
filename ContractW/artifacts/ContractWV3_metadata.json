@@ -1,0 +1,245 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "listingHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountToPay",
+						"type": "uint256"
+					}
+				],
+				"name": "InvalidAmountToPay",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "InvalidBuyer",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "listingHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "InvalidListing",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "InvalidSeller",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "listingHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "ListingAlreadyCancelled",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "listingHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "ListingNotFound",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "NotOwner",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "listingHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "nftContract",
+						"type": "address"
+					}
+				],
+				"name": "buy",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "listingHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "cancelListing",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "listingHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					}
+				],
+				"name": "changeListingPrice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "nftContract",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "salt",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					}
+				],
+				"name": "createListing",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "seller",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "nftContract",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "salt",
+						"type": "bytes32"
+					}
+				],
+				"name": "getListingHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractW/ContractWV3.sol": "ContractWV3"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractW/ContractWV3.sol": {
+			"keccak256": "0xcf783cc5fc6b7dd14f02b43fc68746a0db7ecf1232dc53dccac165ffda261fd3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3bb28ac39267e000feaca4974d1ae7aa3d7c68eea37d0ad400f47a449e9c5e1d",
+				"dweb:/ipfs/QmS4QHhLh2U8ELaVYhnrYEWNvFMbcyK469UPc8z7qFmugz"
+			]
+		},
+		"https://github.com/chiru-labs/ERC721A/blob/main/contracts/IERC721A.sol": {
+			"keccak256": "0xc9a2a00612e0d121aef3f716877ada17177d5b2d5a4c780d22cade46da2ff294",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1435542fc553d2fb9181191f126a1f97e2cc5570c2459c862f54ba415a22bf02",
+				"dweb:/ipfs/QmaQJ14ajkHgymY5TtoxHnpiN5u4TpwXCqKr2B6DM8SHkn"
+			]
+		}
+	},
+	"version": 1
+}

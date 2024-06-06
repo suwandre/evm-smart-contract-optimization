@@ -325,3 +325,13 @@ DiamondProxy's contract: https://testnet.bscscan.com/address/0xa873374FcEF193FD3
 ContractVV1's contract: https://testnet.bscscan.com/address/0xcf7EBd02FB361CD97fEaf77170E40dCC1437Af7e
 
 ContractVV2's contract: https://testnet.bscscan.com/address/0xe758f0529fCb81b0fc371f7B05FB9EF27db03133
+
+ContractWV1's contract: https://testnet.bscscan.com/address/0xD6FF9389717A26cED1e0931D6499Bec3b18c09D1
+
+ContractWV2's contract: https://testnet.bscscan.com/address/0x72cbd5761C36798Fb81C106486481D8900a1dD8A
+
+ContractWV3's contract: https://testnet.bscscan.com/address/0x5b07c7eb260602e84f9ee4262e903b4a80e5416b
+
+ContractXV1's contract: https://testnet.bscscan.com/address/0x0dc1150bfe07B44BBE0ef183A948AaE015182Aa8
+
+ContractXV2's contract: https://testnet.bscscan.com/address/0x7af17Ac3578f31068bB55d6e3dcDA19BB2BCF4Dc
